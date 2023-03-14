@@ -1,5 +1,5 @@
 module "s3-bucket" {
   source  = "app.terraform.io/CrestInfosolutions/s3-bucket/aws"
   version = "2.8.0"
- bucket_prefix = "Raj"
+  bucket_prefix = "rajen"
 }
